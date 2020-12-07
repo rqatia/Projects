@@ -1,0 +1,46 @@
+First, In my main function I loop through the input File and for each of those I am calling part 2 function 
+Part 1 = I went ahead and read the tokens. What that's doing is, its reading the lines and splitting the spaces, 
+in order to get to the different parts. 
+
+As for the first part, we need to extract each of those two numbers thereforefore we assign the 1st and 2nd 
+into the integer values of split token of the dash sign.
+
+Since we split it on the dash we have a list with two string representations of numbers. By mapping it we apply 
+it to both of those.
+
+Our second token is our letter, accompanied by the colon after - which will give us our first element of the letter.
+Finally, we have the password which is on its own in the third token. Once we have done, we can go to part one where we assign 
+those to min and max letter and password. Part 1 is very simple, as we neeed to check if the password is in between min and max
+inclusive, if it is I return one, otherwise I return zero and in my main, I add that to the count for part 1 
+and then at the end we will be printing it out.  
+
+Once we do that we will get the answer, my answer was 500. What was yours?
+
+--- Part 2 ---
+
+It appears we have valiated the password correctly, however we were given a wrong policy. Now,
+what we need to do is for each of those two numbers, for what we had in the range earlier, is 
+cheack if exactly one occurrence of whatever we're given, appears at the given indexes. 
+
+Part two is similiar to part one, instead of min and max I call the things first and second. As we,
+have one statement, it will check if passwords have first -1, as it said one was the element of the list and in python
+zero is the first element of the list, therefore, we need to subtract one to get the correct index. Meanwhile, 
+we are also checking if that is equal to the letter. Here, we also repeat the task for the second letter. 
+
+In addition, we also want the two booleans. They will give a True or False response in correspondence to the letter
+state is in the correct position, as we want to ensure the two values are not equal to each other. Morever, if the
+two letters are equal to each other, this will suggest the theory of either being both true or both false. From this we 
+will know that this will not pass the test condition. However, if they are not equal to each other, it will go ahead and 
+present "okay, they're not equal to each other", one of them is true and we return one.  we finally go ahead and add that
+to part two count. 
+
+Then we run our code, we recieve the following response:
+
+- Part 1: 500
+- Part 2: 313
+
+Happy Coding!
+
+    
+    
+
