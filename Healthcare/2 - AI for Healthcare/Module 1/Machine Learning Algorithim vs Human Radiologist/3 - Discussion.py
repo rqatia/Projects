@@ -1,22 +1,9 @@
 """
 Reflection:
-In the above exercise you assess performances of a human as well as of an
+In the exercise I assessed performances of a human as well as of an
 algorithm against a 'perfect labeler' and also against each other.
 Does accuracy seem like the appropriate statistic to use when evaluating 
 these labels? Why or why not?
-
-In what clinical settings does it seem more or less acceptable to have
-a high level of FNs? FPs?
-
-How did changing the threshold on the algorithm performance change
-the different performance statistics?
-How did your opinion of the algorithm's performance change when you
-started comparing it to a radiologist instead of the perfect labeler?
-What does this mean for a real-world scenario when a perfect labeler
-doesn't exist, and we only have a radiologist's read to base our performance on?
-
-
-
 
 
 Given that there are so many fewer cancer cases than benign cases, accuracy 
