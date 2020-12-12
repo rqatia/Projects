@@ -12,7 +12,7 @@ from sklearn.metrics import confusion_matrix
 # In[2]:
 
 
-labels = pd.read_csv('labels.csv')
+labels = pd.read_csv('2 - labels.csv')
 
 
 # In[3]:
