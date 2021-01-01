@@ -8,7 +8,7 @@ Ebola viruses are responsible for causing Ebola virus disease (EVD) in humans an
  - Viruses in patients’ samples through the identification of significant variants to determine the relationship between viruses; and
  - Shared origins of viral genomes (phylogenetic analysis) to identify a connection between genomic variation and disease phenotype. 
  
-Epidemiological data of microbial genomes of the recent Ebola virus was used to confirm reliability of data and practice real world examples.
+Epidemiological data of microbial genomes of the recent Ebola virus was used to confirm data reliability and practice real world examples.
 
 
 
