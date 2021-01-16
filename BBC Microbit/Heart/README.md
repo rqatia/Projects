@@ -16,7 +16,7 @@ To edit this repository in MakeCode.
 
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **Import** then click on **Import URL**
-* paste **https://github.com/abdulraoufatia/heart** and click import
+* paste **https://github.com/abdulraoufatia/Projects/tree/main/BBC%20Microbit/Heart** and click import
 
 ## Blocks preview
 
