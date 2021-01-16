@@ -31,5 +31,6 @@ This image may take a few minutes to refresh.
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
 
 ### Completed project output
+![20210116_130053_1](https://user-images.githubusercontent.com/74622061/104814365-660b5980-5806-11eb-854b-095d09682a9c.gif)
 
 
