@@ -29,3 +29,7 @@ This image may take a few minutes to refresh.
 
 * for PXT/microbit
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+
+### Completed project output
+
+![https://drive.google.com/file/d/1w3T45fpTIFKR7ph0mQojYyy8s0HuGOil/view?usp=sharing] 
