@@ -7,7 +7,17 @@ In this example I develop a Noisy Duelling Double Q Learning algorithim and add 
   
 This is an example of a simple hospital bed model where a Reinforcement learning (RL) agent has to learn how to manage the bed stock:  
   
- • Default arrivals = 50/day • Weekend arrival numbers are 50% average arrival numbers • Weekday arrival numbers are 120% average arrival numbers • Distribution of inter-arrival time is inverse exponential • Average length of stay is 7 days (default) • Distribution of length of stay is inverse exponential • The RL agent may request a change in bed numbers once a day (default) • The allowed bed change requests are -20, -10, 0, 10, 20 • Bed changes take 2 days to occur (default) • The RL agent receives a reward at each action based on the number of free beds or number of patients without a bed • The simulation is loaded with the average number of patients present  The RL agent must learn to maximise the long term reward (return). The maximum reward = 0, so the agent is learning to minimise the loss for each unoccupied bed or patient without bed.  
+ * Default arrivals = 50/day 
+ * Weekend arrival numbers are 50% average arrival numbers 
+ * Weekday arrival numbers are 120% average arrival numbers 
+ * Distribution of inter-arrival time is inverse exponential 
+ * Average length of stay is 7 days (default) 
+ * Distribution of length of stay is inverse exponential 
+ * The RL agent may request a change in bed numbers once a day (default) 
+ * The allowed bed change requests are -20, -10, 0, 10, 20 
+ * Bed changes take 2 days to occur (default) 
+
+The RL agent receives a reward at each action based on the number of free beds or number of patients without a bed • The simulation is loaded with the average number of patients present  The RL agent must learn to maximise the long term reward (return). The maximum reward = 0, so the agent is learning to minimise the loss for each unoccupied bed or patient without bed.  
   
 ## Reinforcement learning introduction  
   
